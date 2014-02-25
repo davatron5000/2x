@@ -1,0 +1,14 @@
+{
+  "name": "2x",
+  "version": "1.0",
+  "icons": { "128": "icon_128.png" },
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "tabs",
+    "http://*/*"
+  ],
+  "browser_action": {
+      "name": "Click to change HTML5 Media speeds"
+  },
+  "manifest_version": 2
+}
